@@ -10,7 +10,7 @@ class Insertion:
                 data[j+1] = data[j]
                 j = j-1                
             data[j+1] = key
-        return data    
+        return data
 i = Insertion()
 a = [6,1,7,3,10,8]
 print("original array:",a)
